@@ -1,0 +1,105 @@
+body {
+    font-family : 'Magra', Helvetica, sans-serif;
+    font-size   : 100%;
+    color       : #2B1A1A;
+}
+
+dl, dd {
+    margin : 0;
+}
+
+dt {
+    font-weight : bold;
+}
+
+dd {
+    font-size : 0.9em;
+}
+
+ul {
+    margin  : 0;
+    padding : 0;
+}
+
+li {
+    list-style : none;
+}
+
+a {
+    color           : #219F4D;
+    text-decoration : none;
+}
+
+a:hover {
+    text-decoration : underline;
+}
+
+h3 {
+    margin-top    : 1.5em;
+    margin-bottom : 0.5em;
+    font-size     : 1.2em;
+    font-weight   : normal;
+}
+
+#resume {
+    max-width : 60em;
+    margin    : auto;
+}
+
+footer {
+    padding     : 0.75em 0;
+    margin-top  : 4em;
+    border-top  : 1px solid #000;
+    line-height : 1.5;
+    font-size   : 0.85em;
+    overflow    : hidden;
+}
+
+footer li {
+    float        : left;
+    margin-right : 2em;
+}
+
+#resume-pdf {
+    float      : right;
+    margin-top : 1em;
+}
+
+#resume {
+    padding : 0 0.75em;
+}
+
+#resume h2 {
+    clear         : both;
+    border-bottom : 1px solid #ccc;
+    padding-top   : 0.5em;
+}
+
+.list-container {
+    overflow : hidden;
+}
+
+.list-container dl {
+    width        : 21%;
+    margin-right : 5%;
+    float        : left;
+}
+
+.list-container dl.last {
+    margin-right : 0;
+}
+
+#resume h3 span.date {
+    font-size : 85%;
+    float     : right;
+}
+
+#resume ul li {
+    margin-left : 1em;
+    line-height : 1.5;
+    font-size   : 0.9em;
+}
+
+.entry p {
+    font-size : 0.9em;
+}
