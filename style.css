@@ -45,6 +45,10 @@ p {
     margin : 0 0 0.65em 0;
 }
 
+span.callout {
+    color : #d80063;
+}
+
 #resume {
     max-width : 45em;
     margin    : auto;
@@ -59,14 +63,17 @@ footer {
     overflow    : hidden;
 }
 
-footer li {
-    float        : left;
-    margin-right : 2em;
+#resume footer ul li {
+    float  : left;
+    margin : 0 2em 0 0;
 }
 
 #resume-pdf {
-    float      : right;
-    margin-top : 1em;
+    height       : 32px;
+    background   : url('images/pdf.png') no-repeat 0 center;
+    float        : right;
+    padding-left : 2.5em;
+    line-height  : 2.1em;
 }
 
 #resume {
@@ -106,4 +113,24 @@ footer li {
 
 .entry p {
     font-size : 0.9em;
+}
+
+.icon-email {
+    background   : url('images/email.png') no-repeat 0 center;
+    padding-left : 2em;
+}
+
+.icon-phone {
+    background   : url('images/mobile.png') no-repeat 0 center;
+    padding-left : 2em;
+}
+
+.icon-sg {
+    background   : url('images/sg.png') no-repeat 0 center;
+    padding-left : 2em;
+}
+
+.icon-github {
+    background   : url('images/github.png') no-repeat 0 center;
+    padding-left : 2em;
 }
