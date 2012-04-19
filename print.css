@@ -1,0 +1,16 @@
+/* Show URL */
+a:link, a:visited {
+    background      : transparent;
+    color           : #333;
+    text-decoration : none;
+}
+
+a:link[href^="http"]:after,
+a[href^="http"]:visited:after {
+    content   : " (" attr(href) ") ";
+    font-size : 11px;
+}
+
+#resume-pdf {
+    visibility : hidden;
+}
